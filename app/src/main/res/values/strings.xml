@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Image Viewer App</string>
+    <string name="intro">Hello User, \nIn this app there are various options to view an image\nClick on the specific button to be directed to respective activity\nEnjoy 😁😁</string>
+</resources>

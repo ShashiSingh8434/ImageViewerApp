@@ -21,9 +21,6 @@ public class RecyclerViewUsingViewer extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        String notice = "RecyclerView or Scrollable View is under development it will be issued in next version of this app until then please enjoy `Using Button` Activity to see image.\nThank You";
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) TextView textView = findViewById(R.id.alphaText);
-        textView.setText(notice);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
